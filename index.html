@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aayush Vishwakarma - IT student and aspiring full-stack developer portfolio." />
+  <title>Aayush Vishwakarma | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Pixelify+Sans:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Loading screen -->
+  <div class="site-loader" aria-hidden="true">
+    <div class="loader-block"><span></span><span></span><span></span></div>
+    <p>Loading world...</p>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header" id="top">
+    <nav class="navbar-wrap container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Aayush Vishwakarma home">
+        <span class="grass-block" aria-hidden="true"><i></i></span>
+        <span>AAYUSH VISHWAKARMA</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="primary-menu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#achievements">Achievements</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero: supplied voxel artwork is intentionally used as the complete background. -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="eyebrow reveal-item"><i class="fa-solid fa-cube"></i> OPEN TO LEARNING &amp; COLLABORATION</p>
+          <p class="intro reveal-item">Hi, I'm</p>
+          <h1 id="hero-title" class="hero-name reveal-item"><span>AAYUSH</span> <strong>VISHWAKARMA</strong></h1>
+          <p class="hero-role reveal-item"><span class="typed-text" data-text="IT Student & Aspiring Full-Stack Developer"></span><span class="typing-cursor">_</span></p>
+          <p class="hero-description reveal-item">I’m a second-year Information Technology student at Atharva College of Engineering, Mumbai. I enjoy building web applications, solving problems with code, and exploring technologies across software development, AI/ML, and databases.</p>
+          <div class="skill-badges reveal-item" aria-label="Technical skills">
+            <span><i class="fa-solid fa-code"></i> C++</span><span><i class="fa-brands fa-python"></i> Python</span><span><i class="fa-brands fa-html5"></i> HTML/CSS</span><span><i class="fa-brands fa-js"></i> JavaScript</span><span><i class="fa-brands fa-bootstrap"></i> Bootstrap</span><span><i class="fa-solid fa-wind"></i> Tailwind CSS</span><span><i class="fa-solid fa-database"></i> SQL</span><span><i class="fa-brands fa-github"></i> Git/GitHub</span><span><i class="fa-solid fa-sitemap"></i> DSA</span><span><i class="fa-solid fa-brain"></i> AI/ML</span>
+          </div>
+          <div class="hero-actions reveal-item">
+            <a class="btn btn-primary-custom ripple" href="#projects"><i class="fa-solid fa-code-branch"></i> View My Projects</a>
+            <a class="btn btn-outline-custom ripple" href="public/resume.pdf" download><i class="fa-solid fa-file-arrow-down"></i> Download Resume</a>
+            <a class="icon-action ripple" href="https://github.com/aayushvish0047-cpu" target="_blank" rel="noopener noreferrer" aria-label="Aayush's GitHub profile"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <a class="hero-scroll" href="#about" aria-label="Scroll to about section"><span></span> Scroll to explore</a>
+    </section>
+
+    <!-- About -->
+    <section class="section section-dark" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-compass"></i> THE PLAYER BEHIND THE BUILD</p>
+          <h2 id="about-title">About <span>Me</span></h2>
+          <p>Curious by nature, practical by choice, and steadily building the skills to turn ideas into useful software.</p>
+        </div>
+        <div class="about-layout">
+          <article class="about-copy glass-card reveal">
+            <div class="card-corner"></div>
+            <p>I’m an Information Technology student who enjoys turning ideas into practical digital experiences. My learning journey includes frontend development, programming, databases, and problem-solving.</p>
+            <p>I believe in learning by building projects, participating in hackathons, and continuously improving my technical skills.</p>
+            <div class="quote-line"><i class="fa-solid fa-pickaxe"></i><span>Learning one block at a time.</span></div>
+          </article>
+          <div class="info-grid">
+            <article class="info-card reveal"><i class="fa-solid fa-building-columns"></i><div><span>Education</span><strong>Atharva College of Engineering</strong></div></article>
+            <article class="info-card reveal"><i class="fa-solid fa-calendar-days"></i><div><span>Year</span><strong>Second Year</strong></div></article>
+            <article class="info-card reveal"><i class="fa-solid fa-microchip"></i><div><span>Branch</span><strong>Information Technology</strong></div></article>
+            <article class="info-card reveal"><i class="fa-solid fa-layer-group"></i><div><span>Focus</span><strong>Full-Stack Development</strong></div></article>
+            <article class="info-card full reveal"><i class="fa-solid fa-seedling"></i><div><span>Currently Learning</span><strong>DSA, Python, SQL, AI/ML</strong></div></article>
+          </div>
+        </div>
+        <div class="mini-timeline reveal" aria-label="Aayush's learning timeline">
+          <div><span>01</span><p>Started programming</p></div><div><span>02</span><p>Learned frontend development</p></div><div><span>03</span><p>Built personal projects</p></div><div><span>04</span><p>Participated in hackathons</p></div><div><span>05</span><p>Exploring full-stack development</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-toolbox"></i> MY BUILDING BLOCKS</p>
+          <h2 id="skills-title">Skills <span>Stack</span></h2>
+          <p>A growing toolkit focused on fundamentals, real projects, and thoughtful problem solving.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon blue"><i class="fa-solid fa-terminal"></i></span><div><h3>Programming</h3><p>Core languages</p></div></div><div class="skill-list"><span>C++</span><span>Python</span><span>JavaScript</span><span>SQL</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon green"><i class="fa-solid fa-display"></i></span><div><h3>Frontend</h3><p>Interfaces that adapt</p></div></div><div class="skill-list"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>Tailwind CSS</span><span>Responsive Design</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon orange"><i class="fa-solid fa-gears"></i></span><div><h3>Backend &amp; Tools</h3><p>Connected systems</p></div></div><div class="skill-list"><span>FastAPI</span><span>REST APIs</span><span>Git</span><span>GitHub</span><span>Database Integration</span></div></article>
+          <article class="skill-card reveal"><div class="skill-card-head"><span class="skill-icon violet"><i class="fa-solid fa-diagram-project"></i></span><div><h3>Computer Science</h3><p>Problem-solving foundations</p></div></div><div class="skill-list"><span>Data Structures &amp; Algorithms</span><span>Object-Oriented Programming</span><span>DBMS</span><span>Problem Solving</span></div></article>
+          <article class="skill-card exploring reveal"><div class="skill-card-head"><span class="skill-icon lime"><i class="fa-solid fa-rocket"></i></span><div><h3>Currently Exploring</h3><p>Next areas of growth</p></div></div><div class="skill-list"><span>Artificial Intelligence</span><span>Machine Learning</span><span>Full-Stack Development</span></div><div class="learning-meter"><span>Actively learning</span><div><i></i></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-dark projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-cubes"></i> SELECTED BUILDS</p>
+          <h2 id="projects-title">Project <span>Worlds</span></h2>
+          <p>Practical work that documents what I am learning and the problems I want to solve.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="web">Web Development</button><button class="filter-btn" data-filter="hackathon">Hackathon</button>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual campusconnect"><span class="project-number">05</span><img src="public/images/campusconnect.jpg" alt="CampusConnect student dashboard showing attendance, CGPA, open assignments, eligible placement drives, and the Campus Navigator section" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top left;z-index:0;" /></div>
+            <div class="project-body"><div class="project-meta"><span>Web Development</span></div><h3>CampusConnect</h3><p>A unified and secure platform for academic and placement management, with an actionable intelligence layer through Campus Navigator. Role-based workflows, backend-enforced rules, and live student recommendations make it more useful than a basic information-display portal.</p><div class="project-actions"><a class="github-link" href="https://github.com/aayushvish0047-cpu/CampusConnect" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a class="github-link" href="https://campus-connect-umber-eight.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a></div></div>
+          </article>
+          <article class="project-card reveal" data-category="hackathon web">
+            <div class="project-visual govsync"><span class="project-number">01</span><img src="public/images/govsync-logo.jpg" alt="GovSync logo with interlocking G and S letters around a government building, in saffron, white and green" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;padding:12px;z-index:0;" /></div>
+            <div class="project-body"><div class="project-meta"><span>Smart India Hackathon 2026</span><i class="fa-solid fa-trophy" title="SIH 2026 internal round"></i></div><h3>GovSync</h3><p>A unified architecture for government systems to exchange information through API integration, consent-based data sharing, orchestration, validation, eligibility processing, and application tracking.</p><div class="tech-tags"><span>APIs</span><span>Backend</span><span>Database</span><span>System Integration</span></div><p class="project-achievement"><i class="fa-solid fa-medal"></i> SIH 2026 internal round participant</p><div class="project-actions"><button class="text-button project-detail" data-project="govsync" data-bs-toggle="modal" data-bs-target="#projectModal">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button><a class="github-link" href="https://govsync.govsync.workers.dev/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a></div></div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual todoapp"><span class="project-number">06</span><img src="public/images/todo-app.jpg" alt="Todo App interface showing a greeting, daily progress bar, and add task form" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;z-index:0;" /></div>
+            <div class="project-body"><div class="project-meta"><span>Web Development</span></div><h3>Todo App</h3><p>A digital task management tool designed to help individuals and teams organize, prioritize, and track their daily activities.</p><div class="project-actions"><a class="github-link" href="https://github.com/aayushvish0047-cpu/Todo-app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a class="github-link" href="https://aayush-todo-app.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a></div></div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual flipkart"><span class="project-number">03</span><img src="public/images/flipkart-clone.jpg" alt="Flipkart UI clone homepage with search bar, category icons, and a laptop deals banner" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top left;z-index:0;" /></div>
+            <div class="project-body"><div class="project-meta"><span>Web Development</span></div><h3>Flipkart UI Clone</h3><p>A frontend e-commerce project inspired by modern shopping platforms, created to practice responsive layouts, navigation, product sections, and reusable UI components.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>Bootstrap</span></div><div class="project-actions"><button class="text-button project-detail" data-project="flipkart" data-bs-toggle="modal" data-bs-target="#projectModal">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button><a class="github-link" href="https://github.com/aayushvish0047-cpu/flipkart-clone" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a><a class="github-link" href="https://quickcart-0047.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a></div></div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual portfolio-visual"><span class="project-number">02</span><i class="fa-solid fa-laptop-code"></i><span class="visual-label">PERSONAL SPACE</span></div>
+            <div class="project-body"><div class="project-meta"><span>Web Development</span></div><h3>Personal Portfolio Website</h3><p>A responsive portfolio built to showcase skills, projects, achievements, and an evolving development journey with a clear personal visual identity.</p><div class="tech-tags"><span>HTML</span><span>Tailwind CSS</span><span>JavaScript</span></div><div class="project-actions"><button class="text-button project-detail" data-project="portfolio" data-bs-toggle="modal" data-bs-target="#projectModal">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></div>
+          </article>
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual pets"><span class="project-number">04</span><i class="fa-solid fa-paw"></i><span class="visual-label">PET CORNER</span></div>
+            <div class="project-body"><div class="project-meta"><span>Web Development</span></div><h3>Pet Store Website</h3><p>A responsive pet-store website created to practice sound page structure, styling, layout systems, and responsive design patterns.</p><div class="tech-tags"><span>HTML</span><span>CSS</span></div><div class="project-actions"><button class="text-button project-detail" data-project="pets" data-bs-toggle="modal" data-bs-target="#projectModal">View Details <i class="fa-solid fa-arrow-up-right-from-square"></i></button></div></div>
+          </article>
+        </div>
+        <p class="filter-empty" hidden>No projects match this filter yet.</p>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section section-alt" id="achievements" aria-labelledby="achievements-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow"><i class="fa-solid fa-award"></i> MILESTONES UNLOCKED</p>
+          <h2 id="achievements-title">Achievements <span>&amp; Credentials</span></h2>
+          <p>Meaningful checkpoints from building, learning, and showing up for challenges.</p>
+        </div>
+        <div class="achievements-grid">
+          <article class="achievement-card featured-achievement reveal"><div class="achievement-pixel"><i class="fa-solid fa-trophy"></i></div><span class="achievement-type">Hackathon</span><h3>Smart India Hackathon 2026 &mdash; Internal Round</h3><p>Participated in the college-level internal round of Smart India Hackathon 2026, organized by Atharva College of Engineering, with Team Samanvay.</p><a class="github-link" href="public/certificates/sih-2026-certificate.jpg" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-image"></i> View Certificate</a></article>
+          <article class="achievement-card reveal"><div class="achievement-pixel blue-pixel"><i class="fa-brands fa-python"></i></div><span class="achievement-type">Certification</span><h3>HackerRank Python Basic</h3><p>Foundational Python certification from HackerRank.</p><a class="github-link" href="https://www.hackerrank.com/certificates/3c3f43dea481" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> View Certificate</a></article>
+          <article class="achievement-card reveal"><div class="achievement-pixel violet-pixel"><i class="fa-solid fa-database"></i></div><span class="achievement-type">Certification</span><h3>HackerRank SQL Basic</h3><p>Foundational SQL certification from HackerRank.</p><a class="github-link" href="https://www.hackerrank.com/certificates/a6a791652c1b" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> View Certificate</a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journey -->
+    <section class="section journey-section" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section-heading centered reveal"><p class="eyebrow"><i class="fa-solid fa-route"></i> PROGRESS LOG</p><h2 id="journey-title">My Developer <span>Journey</span></h2><p>Each milestone is a new block in the foundation.</p></div>
+        <div class="journey-line" aria-label="Developer journey timeline">
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-solid fa-play"></i></span><h3>Fundamentals</h3><p>Learning programming fundamentals</p></article>
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-solid fa-code"></i></span><h3>Logic</h3><p>Practicing C++ and DSA</p></article>
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-brands fa-python"></i></span><h3>Data</h3><p>Exploring Python and SQL</p></article>
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-solid fa-window-maximize"></i></span><h3>Interface</h3><p>Building frontend projects</p></article>
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-solid fa-server"></i></span><h3>Systems</h3><p>Learning backend development</p></article>
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-solid fa-flag-checkered"></i></span><h3>Challenge</h3><p>Participating in hackathons</p></article>
+          <article class="journey-step reveal"><span class="journey-icon"><i class="fa-solid fa-brain"></i></span><h3>Explore</h3><p>Exploring AI/ML</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-dark contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-intro reveal"><p class="eyebrow"><i class="fa-solid fa-paper-plane"></i> START A CONVERSATION</p><h2 id="contact-title">Let's Build Something <span>Together</span></h2><p>Have an idea, project, or collaboration opportunity? Feel free to connect with me.</p><div class="contact-socials"><a href="https://github.com/aayushvish0047-cpu" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i><span>GitHub</span></a><a href="https://www.linkedin.com/in/aayush-vishwakarma-b748a5378/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i><span>LinkedIn</span></a><a href="mailto:aayushvish0047@gmail.com"><i class="fa-solid fa-envelope"></i><span>Email</span></a></div></div>
+        <div class="contact-card glass-card reveal">
+          <form id="contactForm" novalidate>
+            <div class="form-row"><div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required minlength="2" /><small></small></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="Your email address" required /><small></small></div></div>
+            <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required minlength="3" /><small></small></div>
+            <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me a little about your idea..." required minlength="12"></textarea><small></small></div>
+            <button class="btn btn-primary-custom ripple submit-btn" type="submit"><span class="submit-label"><i class="fa-solid fa-paper-plane"></i> Send Message</span><span class="submit-loading" hidden><i class="fa-solid fa-spinner fa-spin"></i> Preparing...</span></button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="#home"><span class="grass-block" aria-hidden="true"><i></i></span><span>AAYUSH VISHWAKARMA</span></a><p>IT Student &amp; Aspiring Full-Stack Developer</p></div><div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div><div class="footer-socials"><a href="https://github.com/aayushvish0047-cpu" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a><a href="https://www.linkedin.com/in/aayush-vishwakarma-b748a5378/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="mailto:aayushvish0047@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></div></div><div class="container footer-bottom"><span>© 2026 Aayush Vishwakarma. All rights reserved.</span><span>Crafted with curiosity <i class="fa-solid fa-heart"></i></span></div></footer>
+
+  <button class="back-to-top ripple" type="button" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Project information modal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content project-modal"><button type="button" class="modal-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button><div class="modal-icon"><i class="fa-solid fa-cube"></i></div><span id="modalCategory" class="achievement-type"></span><h2 id="projectModalTitle"></h2><p id="modalDescription"></p><div id="modalTech" class="tech-tags"></div><p id="modalNote" class="modal-note"></p></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
